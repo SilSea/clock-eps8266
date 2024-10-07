@@ -36,7 +36,7 @@ void setup()
   
   Serial.print("Connecting WiFi ");
   WiFi.begin(ssid, password);
-  printStringWithShift("Connecting ",16);
+  printStringWithShift("ComSciIT ",16);
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
